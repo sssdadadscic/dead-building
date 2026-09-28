@@ -1,0 +1,11 @@
+# Godot 4 缓存与导入产物
+.godot/
+*.tmp
+
+# 系统垃圾
+Thumbs.db
+Desktop.ini
+NVIDIA Corporation/
+
+# 截图与测试输出
+shots/

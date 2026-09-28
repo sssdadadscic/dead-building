@@ -1,0 +1,35 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly.
+
+config_version=5
+
+[application]
+
+config/name="死楼 Dead Building"
+config/description="2D叙事解谜 · 治愈系恐怖 — 它们不是鬼，是被世界遗忘的人。"
+run/main_scene="res://src/scenes/title.tscn"
+config/features=PackedStringArray("4.7")
+
+[autoload]
+
+Game="*res://src/autoload/game.gd"
+SceneFlow="*res://src/autoload/scene_flow.gd"
+Sfx="*res://src/autoload/sfx.gd"
+Dialog="*res://src/autoload/dialog.gd"
+HUD="*res://src/autoload/hud.gd"
+JournalUI="*res://src/autoload/journal_ui.gd"
+RitualUI="*res://src/autoload/ritual_ui.gd"
+PauseMenu="*res://src/autoload/pause_menu.gd"
+
+[display]
+
+window/size/viewport_width=640
+window/size/viewport_height=360
+window/size/window_width_override=1920
+window/size/window_height_override=1080
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
